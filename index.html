@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cecil's Personal Library</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <h1>Cecil's Library</h1>
+      <nav>
+        <a href="#" id="home-link">Home</a>
+        <a href="#" id="contact-link">Contact Us</a>
+        <a href="#" id="feedback-link">Feedback</a>
+      </nav>
+    </header>
+
+    <main class="content">
+      <!-- Top section -->
+      <section class="book-display" id="main-area">
+        <div class="book-details">
+          <h2>Discover books to challenge your perspective on life</h2>
+          <img id="book-image" src="images/default_icon.jpg" alt="Book Cover" />
+          <p id="book-description">Click on a book below to view details.</p>
+        </div>
+      </section>
+
+      <!-- Bottom section -->
+      <section class="book-grid">
+        <div
+          class="book-icon"
+          data-title="Happiness Hypothesis by Jonathan Haidt"
+          data-description="Have you ever asked yourself how happiness was perceived in history? This book will take you on a journey through the ages to understand the concept of happiness."
+          data-image="images/happiness_hypothesis.png"
+        >
+          Happiness Hypothesis
+        </div>
+        <div
+          class="book-icon"
+          data-title="Histories of the Hanged by David Anderson"
+          data-description="Kenya's struggle for independence was a bloody affair. This book will take you through the events that led to the hanging of the Mau Mau rebels."
+          data-image="images/historiesofhanged.jpg"
+        >
+          Histories of the Hanged
+        </div>
+        <div
+          class="book-icon"
+          data-title="Abdilatif Abdalla - A Poet in Politics"
+          data-description="Discover the genius and creativity of a political prisoner in post-colonial Kenya."
+          data-image="images/poet_in_politics.jpeg"
+        >
+          Abdilatif Abdalla - A Poet in Politics
+        </div>
+        <div
+          class="book-icon"
+          data-title="Things Fall Apart by Chinua Achebe"
+          data-description="This book explores the impact of colonialism on the Igbo society in Nigeria."
+          data-image="images/things_fall_apart.jpeg"
+        >
+          Things Fall Apart
+        </div>
+        <div
+          class="book-icon"
+          data-title="Why I'm No Longer Talking To White People by Reni Eddo-Lodge"
+          data-description="Conversations surrounding race are never comfortable especially for the privileged white people. This book will take you through the author's journey in navigating these spaces."
+          data-image="images/why_im_no_longer.jpg"
+        >
+          Why I'm No Longer Talking To White People About Race
+        </div>
+        <div
+          class="book-icon"
+          data-title="The Wretched of the Earth"
+          data-description="This book explores the psychological effects of colonialism on the colonized."
+          data-image="images/wretched_of_the_earth.jpeg"
+        >
+          The Wretched of the Earth
+        </div>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>

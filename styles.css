@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+  font-family: "Courier New", monospace;
+  margin: 0;
+  background-color: #000;
+  color: #fdd835;
+}
+
+header.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #222;
+}
+
+header.navbar h1 {
+  font-size: 24px;
+}
+
+header.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fdd835;
+}
+
+header.navbar nav a:hover {
+  text-decoration: underline;
+}
+
+/* Content Section */
+main.content {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 50px);
+}
+
+.book-display {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #fdd835;
+}
+
+.book-details {
+  text-align: center;
+}
+
+.book-details img {
+  width: 200px;
+  height: 300px;
+  margin: 15px 0;
+  border: 2px solid #fdd835;
+}
+
+.book-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.book-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fdd835;
+  background-color: #222;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.book-icon:hover {
+  background-color: #fdd835;
+  color: #000;
+}
+
+/* Table Styling */
+.contact-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.contact-table th,
+.contact-table td {
+  border: 2px solid #fdd835;
+  padding: 10px;
+  text-align: left;
+}
+
+.contact-table th {
+  background-color: #222;
+}
+
+/* Form Styling */
+.feedback-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.feedback-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #fdd835;
+  background-color: #222;
+  color: #fdd835;
+}
+
+.feedback-form button {
+  background-color: #fdd835;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: #222;
+  color: #fdd835;
+}
