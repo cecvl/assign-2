@@ -25,8 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("home-link").addEventListener("click", () => {
     mainArea.innerHTML = `
         <div class="book-details">
-          <h2>Book Title</h2>
-          <img id="book-image" src="#" alt="Book Cover" />
+          <h2>Discover books to challenge your perspective on life</h2>
+          <img id="book-image" src="images/default_icon.jpg" alt="Book Cover" />
           <p id="book-description">Click on a book to view details here.</p>
         </div>
       `;
@@ -44,13 +44,10 @@ document.addEventListener("DOMContentLoaded", () => {
             <td>Email</td>
             <td>christiancecil.dev@gmail.com</td>
           </tr>
-          <tr>
-            <td>Phone</td>
-            <td>+2547 456 78900</td>
-          </tr>
+          
           <tr>
             <td>GitHub</td>
-            <td><a href="https://github.com/cecvl" target="_blank">github.com/cecil</a></td>
+            <td><a href="https://github.com/cecvl" target="_blank">github.com/cecvl</a></td>
           </tr>
         </table>
       `;

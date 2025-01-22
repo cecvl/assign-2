@@ -19,6 +19,8 @@ header.navbar h1 {
 }
 
 header.navbar nav a {
+  display: block;
+  position: right;
   margin: 0 15px;
   text-decoration: none;
   color: #fdd835;
@@ -90,6 +92,9 @@ main.content {
   border: 2px solid #fdd835;
   padding: 10px;
   text-align: left;
+}
+.contact-table td a {
+  color: #fdd835;
 }
 
 .contact-table th {
